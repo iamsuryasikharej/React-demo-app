@@ -5,12 +5,12 @@ export class Formh extends Component {
         super(props)
     
         this.state = {
-             username:''
+             username:'',
         }
     }
     
     render() {
-        return (
+        return ( 
             <div>
                 <form>
                     <label> Username</label>
