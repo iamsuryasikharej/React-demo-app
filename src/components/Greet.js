@@ -2,9 +2,9 @@
  import Fuck from './Welcome'
 function Greet(props)
 {
-    props.name="gandu";
+    const { name,snm}=props
     return(<div>
-        <h1>Hello {props.name}</h1>
+        <h1>Hello {name}</h1>
         </div>
 
     )
